@@ -32,6 +32,10 @@
 ;; Highlight current line
 (global-hl-line-mode +1)
 
+;; Display time in the modeline
+(setq display-time-format "%I:%M - %m/%d/%Y")
+(display-time-mode 1)
+
 ;; Backups
 ;; (setq temporary-file-directory "~/.emacs.d/backup_files/")
 ;; (setq backup-directory-alist
@@ -71,9 +75,9 @@
 (add-to-list 'auto-mode-alist '("\\.fshader\\'" . c++-mode))
 
 ;; Colors
-(setq custom-theme-load-path
-      '("~/.emacs.d/themes/emacs-color-theme-solarized"))
-(load-theme 'solarized-dark t)
+;; (setq custom-theme-load-path
+;;       '("~/.emacs.d/themes/emacs-color-theme-solarized"))
+;; (load-theme 'solarized-dark t)
 
 ;; Fonts
 (set-face-attribute 'default nil :height 118)
@@ -418,6 +422,12 @@
 
 (use-package cider
   :ensure t)
+
+(use-package solarized-theme
+  :ensure t
+  :load-path "themes"
+  :config
+  (load-theme 'solarized-dark))
 
 (use-package spaceline
   :ensure t

@@ -22,7 +22,7 @@
    "(do (require 'figwheel-sidecar.repl-api) (figwheel-sidecar.repl-api/start-figwheel!) (figwheel-sidecar.repl-api/cljs-repl))")
  '(custom-safe-themes
    (quote
-    ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6" "1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" default)))
+    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6" "1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" default)))
  '(erc-input-line-position nil)
  '(erc-modules
    (quote
@@ -53,7 +53,7 @@
  '(org-table-copy-increment t)
  '(package-selected-packages
    (quote
-    (exwm yasnippet auto-complete org-plus-contrib spaceline use-package helm dired-rsync paredit gnuplot cider undo-tree clojure-mode anaconda-mode doremi elpy lua-mode window-margin request rainbow-delimiters pretty-lambdada magit lorem-ipsum javadoc-lookup httpd htmlize gist ghc elnode color-theme-solarized cmake-mode cdlatex auto-complete-c-headers auctex arduino-mode)))
+    (solarized-theme exwm yasnippet auto-complete org-plus-contrib spaceline use-package helm dired-rsync paredit gnuplot cider undo-tree clojure-mode anaconda-mode doremi elpy lua-mode window-margin request rainbow-delimiters pretty-lambdada magit lorem-ipsum javadoc-lookup httpd htmlize gist ghc elnode color-theme-solarized cmake-mode cdlatex auto-complete-c-headers auctex arduino-mode)))
  '(safe-local-variable-values
    (quote
     ((require-final-newline)
